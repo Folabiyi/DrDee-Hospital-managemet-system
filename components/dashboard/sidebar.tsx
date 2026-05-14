@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Activity, Bed, Bell, CalendarDays, ClipboardList, CreditCard, FlaskConical, LayoutDashboard, Package, Pill, Stethoscope, Users, Video } from "lucide-react";
 
-const nav = [
+export const dashboardNav = [
   ["/staff/admin", "Overview", LayoutDashboard],
   ["/staff/admin/modules", "HMS Modules", Activity],
   ["/staff/receptionist", "Appointments", CalendarDays],
@@ -24,7 +24,7 @@ export function DashboardSidebar() {
     <aside className="hidden min-h-screen border-r bg-white lg:block">
       <div className="p-5 text-xl font-bold text-care-ink">CareBridge HMS</div>
       <nav className="grid gap-1 p-3">
-        {nav.map(([href, label, Icon]) => (
+        {dashboardNav.map(([href, label, Icon]) => (
           <Link key={href} href={href} className="flex items-center gap-3 rounded-md px-3 py-2 text-sm font-semibold text-muted-foreground hover:bg-muted hover:text-primary">
             <Icon className="h-4 w-4" /> {label}
           </Link>
