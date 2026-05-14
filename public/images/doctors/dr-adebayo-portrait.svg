@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Black Nigerian male doctor professional portrait">
+  <rect width="900" height="1100" fill="#b87933"/>
+  <circle cx="450" cy="270" r="132" fill="#4b2b1a"/>
+  <path d="M322 232c14-98 91-144 181-116 67 20 100 82 88 155-87-56-173-66-269-39z" fill="#151923"/>
+  <path d="M347 298c25 86 181 86 207 0 5 96-36 165-103 165-66 0-107-69-104-165z" fill="#5a3320"/>
+  <path d="M253 1040c11-206 45-408 105-580h184c61 173 96 375 106 580z" fill="#0f172a"/>
+  <path d="M367 463h166l-20 108c-41 32-83 32-126 0z" fill="#5a3320"/>
+  <path d="M339 520c88 70 136 70 224 0l64 520H276z" fill="#dbeafe"/>
+  <path d="M275 544c-105 84-169 244-209 496h223l94-520z" fill="#111827"/>
+  <path d="M625 544c105 84 169 244 209 496H611l-94-520z" fill="#111827"/>
+  <path d="M348 642h205" stroke="#0f766e" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="450" cy="872" r="70" fill="#5a3320"/>
+  <path d="M331 947c64 66 175 66 238 0" fill="none" stroke="#5a3320" stroke-width="58" stroke-linecap="round"/>
+</svg>

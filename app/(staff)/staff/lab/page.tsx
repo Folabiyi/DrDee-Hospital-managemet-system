@@ -1,0 +1,3 @@
+export default function LabPage() {
+  return <section className="p-6"><h1 className="text-3xl font-bold text-care-ink">Laboratory</h1><div className="mt-6 grid gap-4 md:grid-cols-4">{["Ordered", "Sample collected", "Processing", "Released"].map((status) => <div key={status} className="rounded-lg border bg-white p-5"><div className="text-2xl font-bold text-primary">{status === "Ordered" ? 12 : status === "Sample collected" ? 8 : status === "Processing" ? 5 : 2}</div><p className="mt-1 text-sm text-muted-foreground">{status}</p></div>)}</div><div className="mt-6 rounded-lg border bg-white p-5">Track ordered tests, sample collection, manual result entry, PDF uploads, verification, and notifications to doctors and patients.</div></section>;
+}

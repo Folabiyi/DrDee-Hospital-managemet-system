@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Black Nigerian hospital care team">
+  <rect width="1200" height="800" fill="#e0f2fe"/>
+  <rect x="80" y="110" width="1040" height="560" rx="28" fill="#ffffff"/>
+  <rect x="110" y="150" width="980" height="150" rx="18" fill="#dff6ef"/>
+  <circle cx="320" cy="330" r="82" fill="#5a3320"/>
+  <circle cx="600" cy="320" r="90" fill="#4b2b1a"/>
+  <circle cx="870" cy="335" r="80" fill="#5f3825"/>
+  <path d="M230 690c15-145 48-245 100-300h130c54 58 88 158 102 300z" fill="#f8fafc"/>
+  <path d="M494 690c17-160 55-272 116-332h146c63 63 101 175 116 332z" fill="#0f766e"/>
+  <path d="M775 690c13-138 43-235 91-288h118c50 55 80 152 92 288z" fill="#f8fafc"/>
+  <path d="M248 305c5-83 63-130 132-111 49 13 77 52 80 108-70-38-140-37-212 3z" fill="#111827"/>
+  <path d="M508 285c16-98 91-145 174-119 64 20 97 74 92 140-86-50-174-57-266-21z" fill="#111827"/>
+  <path d="M783 318c-8-88 50-148 119-139 60 8 99 60 91 137-71-39-139-38-210 2z" fill="#111827"/>
+  <path d="M300 455h190M532 480h240M830 460h170" stroke="#0f766e" stroke-width="16" stroke-linecap="round"/>
+</svg>

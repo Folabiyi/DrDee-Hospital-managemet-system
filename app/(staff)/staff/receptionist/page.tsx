@@ -1,0 +1,5 @@
+import { appointments } from "@/lib/data";
+
+export default function ReceptionistPage() {
+  return <section className="p-6"><h1 className="text-3xl font-bold text-care-ink">Appointments and queue</h1><div className="mt-6 grid gap-4 lg:grid-cols-[0.7fr_1.3fr]"><div className="rounded-lg border bg-white p-5"><h2 className="font-bold">Queue tokens</h2><div className="mt-4 grid gap-3">{["OPD-018", "CARD-006", "PAED-011"].map((token) => <div key={token} className="rounded-md bg-secondary p-3 font-bold text-primary">{token}</div>)}</div></div><div className="grid gap-3">{appointments.map((a) => <div key={a.patient} className="rounded-lg border bg-white p-4"><strong>{a.time}</strong> · {a.patient}<p className="text-sm text-muted-foreground">{a.doctor} · {a.status}</p><div className="mt-3 flex gap-2 text-xs font-semibold"><span className="rounded-full bg-secondary px-3 py-1 text-primary">Confirm</span><span className="rounded-full bg-muted px-3 py-1">Reschedule</span><span className="rounded-full bg-muted px-3 py-1">Mark arrived</span></div></div>)}</div></div></section>;
+}

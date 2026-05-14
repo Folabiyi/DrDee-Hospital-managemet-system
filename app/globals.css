@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 210 54% 13%;
+  --card: 0 0% 100%;
+  --card-foreground: 210 54% 13%;
+  --primary: 174 72% 27%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 213 82% 96%;
+  --secondary-foreground: 210 54% 13%;
+  --muted: 206 45% 96%;
+  --muted-foreground: 211 22% 39%;
+  --accent: 42 67% 55%;
+  --accent-foreground: 210 54% 13%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 207 35% 88%;
+  --input: 207 35% 88%;
+  --ring: 174 72% 27%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.container {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply py-16 sm:py-20;
+}
+
+.focus-ring {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
+}

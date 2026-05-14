@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Black Nigerian female doctor portrait">
+  <rect width="900" height="900" fill="#dff6ef"/>
+  <circle cx="450" cy="275" r="130" fill="#4f2f20"/>
+  <path d="M314 260c-6-108 68-186 158-179 84 7 143 77 137 179-101-42-198-42-295 0z" fill="#151923"/>
+  <path d="M340 298c18 91 203 91 220 0 0 105-42 175-110 175s-110-70-110-175z" fill="#5f3825"/>
+  <path d="M245 840c17-175 48-320 92-436h226c46 118 77 263 92 436z" fill="#fff"/>
+  <path d="M340 448c75 65 145 65 220 0l52 392H288z" fill="#0f766e"/>
+  <path d="M253 486c-72 75-112 188-128 354h154l68-390z" fill="#fff"/>
+  <path d="M647 486c72 75 112 188 128 354H621l-68-390z" fill="#fff"/>
+  <circle cx="372" cy="326" r="9" fill="#111827"/>
+  <circle cx="528" cy="326" r="9" fill="#111827"/>
+  <path d="M396 390c38 26 75 26 112 0" fill="none" stroke="#2f1b13" stroke-width="12" stroke-linecap="round"/>
+  <path d="M330 545c0 70 46 116 120 116s120-46 120-116" fill="none" stroke="#17324d" stroke-width="14"/>
+  <circle cx="330" cy="545" r="15" fill="#17324d"/>
+  <circle cx="570" cy="545" r="15" fill="#17324d"/>
+</svg>
