@@ -94,27 +94,27 @@ export const specialties = [
 
 export const doctors = [
   {
-    slug: "amara-okafor",
-    name: "Dr. Amara Okafor",
+    slug: "dayo-folami",
+    name: "Dr. Folami Oladayo",
     specialty: "Cardiology",
     qualifications: "MBBS, FWACP, FESC",
     experience: 14,
     languages: ["English", "Igbo"],
     availability: "Mon, Wed, Fri",
-    image: "/images/doctors/dr-adebayo-clinical.svg",
+    image: "/images/doctors/dr-clinical.jpg",
     bio: "Consultant cardiologist focused on preventive cardiology, hypertension, and cardiac rehabilitation.",
     education: ["Obafemi Awolowo University", "West African College of Physicians"],
     publications: ["Urban hypertension patterns in West Africa", "Patient adherence in cardiac rehab"]
   },
   {
-    slug: "tunde-balogun",
-    name: "Dr. Tunde Balogun",
+    slug: "dr-dee",
+    name: "Dr. Dee Folami",
     specialty: "Orthopedics",
     qualifications: "MBBS, FMCS Ortho",
     experience: 12,
     languages: ["English", "Yoruba"],
     availability: "Tue, Thu, Sat",
-    image: "/images/doctors/dr-adebayo-portrait.svg",
+    image: "/images/doctors/dr-portrait.jpg",
     bio: "Orthopedic surgeon with expertise in sports injuries, trauma care, and joint preservation.",
     education: ["Obafemi Awolowo University", "National Postgraduate Medical College"],
     publications: ["ACL outcomes in amateur athletes", "Fracture care pathways"]
